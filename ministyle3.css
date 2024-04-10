@@ -22,3 +22,12 @@ div {
     grid-template-columns:auto auto auto;
 
 }
+
+.img-with-text {
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 2rem;
+    font-size: 1rem;
+    background-color: blanchedalmond;
+    justify-content: space-evenly;
+}
