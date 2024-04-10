@@ -31,3 +31,19 @@ div {
     background-color: blanchedalmond;
     justify-content: space-evenly;
 }
+
+@media (max-width: 480px) {
+    .grid.container {
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 1rem;
+        text-align: center;
+    }
+
+   .img-with-text {
+    font-size: 2rem;
+    text-align:justify;
+    grid-gap: 3rem;
+    background-color: rgb(197, 168, 133);
+   }
+
+}
