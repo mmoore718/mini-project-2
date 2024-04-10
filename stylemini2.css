@@ -10,3 +10,9 @@ div {
     grid-template-columns: 1fr 1fr 1fr;
     column-gap: 2px;
 }
+
+#h2 {
+    color: #0f3e09;
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+}
