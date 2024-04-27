@@ -1,0 +1,133 @@
+body {
+    background-color: #ebc8d1;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    color: #6B1F33;
+}
+
+.Logo {
+    display: flex;
+    justify-content: center;
+}
+
+  .row1 {
+    display: flex;
+    max-width: 91.53rem;
+    margin:auto;
+    display:flex;
+  }
+
+  .row2 {
+    display: flex;
+    max-width: 91.53rem;
+    margin:auto;
+    display:flex;
+  }
+  
+  .img {
+    flex: 30.33%;
+    padding: 5px;
+    max-width: 50rem;
+    margin: 4 auto;
+    padding: 2rem;
+    border-radius: 9px;
+    display:flex;
+  }
+
+.footer {
+    width: 99.7%;
+    padding: 20px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.topnav {
+    background-color: #6F2035;
+    overflow: hidden;
+    padding: 1rem;
+    border-radius: 2rem;
+}
+
+.topnav a {
+    float: center;
+    color: #F2D0A6;
+    text-align: center;
+    padding: 30px 40px;
+    text-decoration: wavy;
+    font-size: 20px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.topnav a:hover {
+    background-color: #a06262;
+    color:#ece6e6;
+}
+
+.topnav a.active {
+    background-color: #b5c5da;
+    color: rgb(209, 128, 198);
+}
+
+.contact {
+    background-color: #e69aae;
+    overflow: hidden;
+    margin-top: auto;
+    border-radius: 2rem;
+    justify-content: center;
+    
+}
+
+.contact h2 {
+    text-align: center;
+    color: #9b2b48;
+}
+
+.contact-form-container {
+    max-width: 60rem;
+    margin: 4 auto;
+    padding: 2rem;
+    border-radius: 5px;
+    justify-content:center;
+    display:flex;
+}
+
+input {
+    width: 250px;
+    height: 20px;
+    justify-content: flex;
+    display:flex;
+    align-items: center;
+  }
+
+  @media screen and (min-width: 480rem) {
+    .row1 {
+        display: flex;
+        flex-direction: row;
+
+    }
+
+    .row2 {
+        display: flex;
+        flex-direction: row;
+        max-width: 100%;
+        height: auto;
+    }
+
+
+    .img {
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 1rem;
+        font-size: 2rem;
+        max-width: 100%;
+        height: auto;
+    }
+
+    .footer {
+        display:flexbox;
+    }
+  }
