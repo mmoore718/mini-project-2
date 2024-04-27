@@ -1,4 +1,4 @@
-#h2 {
+h2 {
     color: #0f3e09;
     font-size: 40px;
     font-family: 'Times New Roman', Times, serif;
@@ -15,4 +15,13 @@ div {
     display: inline-block;
     grid-template-columns: 1fr 1fr 1fr;
     column-gap: 2px;
+}
+
+.text {
+    color: #9b5858;
+}
+
+.img-with-text {
+    color: #611919; 
+    font-style: italic;
 }
