@@ -24,12 +24,18 @@ div {
 }
 
 .img-with-text {
+    color: #611919; 
+    font-style: italic;
     display: flex;
     flex-wrap: wrap;
     border-radius: 2rem;
     font-size: 1rem;
     background-color: blanchedalmond;
     justify-content: space-evenly;
+}
+
+.text {
+    color: #9b5858;
 }
 
 @media (max-width: 480px) {
