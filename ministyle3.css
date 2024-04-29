@@ -43,6 +43,7 @@ div {
         grid-template-columns: repeat(3, 1fr);
         grid-gap: 1rem;
         text-align: center;
+        
     }
 
    .img-with-text {
@@ -51,5 +52,13 @@ div {
     grid-gap: 3rem;
     background-color: rgb(197, 168, 133);
    }
+
+   .img {
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 1rem;
+    font-size: 2rem;
+    max-width: 100%;
+    height: auto;
+}
 
 }
