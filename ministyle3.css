@@ -32,7 +32,7 @@ div {
     justify-content: space-evenly;
 }
 
-.text {
+#text {
     color: #9b5858;
 }
 
@@ -53,7 +53,7 @@ div {
     background-color: rgb(197, 168, 133);
    }
 
-   .img {
+   img {
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 1rem;
     font-size: 2rem;
